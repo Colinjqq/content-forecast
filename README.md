@@ -86,7 +86,7 @@ Once the script is locked, Content Forecast records a pre-publish forecast based
 
 The forecast cannot be rewritten after the actual result is known. v0.1 creates an exploratory baseline from the median and P10/P90 of comparable posts, and requires at least five comparable samples before producing a numerical forecast.
 
-## First run
+## Start
 
 After installation, tell your Agent:
 
