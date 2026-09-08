@@ -106,11 +106,19 @@ Here are my historical posts and view data. Forecast this video.
 
 ## Installation
 
-Download the complete project and keep the `references`, `templates`, and `scripts` directories.
+Clone or download the complete project, then run:
 
-**Codex:** copy the project to `~/.codex/skills/content-forecast`, start a new session, and invoke `content-forecast`.
+```bash
+bash install.sh codex
+```
 
-**Claude Code:** the typical location is `~/.claude/skills/content-forecast`. This path has not yet been tested by this project.
+Use `bash install.sh claude` for Claude Code or `bash install.sh all` for both. On Windows:
+
+```powershell
+.\install.ps1 -Target codex
+```
+
+Uninstall with `bash uninstall.sh codex` or `.\uninstall.ps1 -Target codex`. Uninstalling the Skill does not remove the separate `content-forecast-data/` directory.
 
 The host Agent needs file access. Forecast calculations require Python 3 and use only the standard library. Web access is optional. The GitHub page itself does not run the Skill.
 

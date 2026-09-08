@@ -116,11 +116,19 @@ Agent 会根据你的身份给出填词示例，但最后由你决定每个词�
 
 ## 安装
 
-下载整个项目文件夹，并保留 `references`、`templates` 和 `scripts`。
+克隆或下载完整项目后运行：
 
-**Codex**：复制到 `~/.codex/skills/content-forecast`，重新打开会话后调用 `content-forecast`。
+```bash
+bash install.sh codex
+```
 
-**Claude Code**：通常复制到 `~/.claude/skills/content-forecast`，再在新会话中使用。目前这一安装路径尚未在本项目中完成实机验证。
+安装到 Claude Code 使用 `bash install.sh claude`，同时安装到两者使用 `bash install.sh all`。Windows 用户运行：
+
+```powershell
+.\install.ps1 -Target codex
+```
+
+卸载使用 `bash uninstall.sh codex` 或 `.\uninstall.ps1 -Target codex`。卸载 Skill 不会删除独立保存的 `content-forecast-data/`。
 
 需要宿主 Agent 支持文件读写。数据计算需要 Python 3，仅使用标准库；联网检索是可选能力。GitHub 页面本身不会运行这个 Skill。
 
