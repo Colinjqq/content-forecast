@@ -3,7 +3,8 @@
 </p>
 
 <h1 align="center">Content Forecast</h1>
-<p align="center"><strong>找选题之前，先搞清楚：这个问题为什么适合你讲？</strong></p>
+<p align="center"><strong>Before choosing a topic, ask why you are the right person to talk about it.</strong></p>
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-v0.1.0-ff6b25" alt="Version v0.1.0">
@@ -12,140 +13,131 @@
   <img src="https://img.shields.io/badge/created%20by-Colin-f3ecdf" alt="Created by Colin">
 </p>
 
-## 我为什么做这个 Skill
+## Why I built this
 
-市面上已经有很多帮人找热点、拆爆款、生成选题的工具了。
+There are already plenty of tools that find trends, reverse-engineer viral posts, and generate topic ideas.
 
-但我一直觉得，热点不应该排在你前面。
+But I have always believed that the trend should not come before the creator.
 
-同一个选题，不是所有人都能讲好。别人讲不好的东西，你可能刚好知道；别人能讲好的东西，放在你这里可能只剩下一段正确但没用的话。
+The same topic does not work equally well for everyone. You may know something others cannot explain. A topic that works for someone else may become nothing more than a correct but useless paragraph in your hands.
 
-所以我做了 Content Forecast。
+That is why I built Content Forecast.
 
-它会先了解你是谁、做过什么、知道什么，再帮你找到那些你真正能接住的问题。例如，Agent 在看完你的材料后会追问：**你是在什么具体经历里意识到这个问题的？**
+It first learns who you are, what you have done, and what you know. Then it helps you find questions you can actually carry. After reading your material, the Agent may ask: **What specific experience made you realize this?**
 
-## 你自身的价值比热点更重要
+## Your value matters more than the trend
 
-Content Forecast 会让你画出两条轴：
+Content Forecast maps ideas across two axes:
 
-- 你知道什么，你不知道什么；
-- 其他人知道什么，其他人不知道什么。
+- what you know and do not know;
+- what other people know and do not know.
 
-<p align="center">
-  <img src="docs/four-quadrants.svg" alt="Content Forecast 四象限选题地图" width="90%">
-</p>
+| | Other people know | Other people do not know |
+| --- | --- | --- |
+| **You know** | **Common Ground** — ideas people understand immediately | **Gold Mine** — experience and knowledge you are unusually qualified to explain |
+| **You do not know** | **Blind Spot** — learn, investigate, or ask an expert first | **Frontier** — explore through experiments and new evidence |
 
-共识区让别人迅速听懂你在说什么。
+The Agent suggests examples based on your identity, but you decide where every term belongs. As you learn, work on new projects, or gain new experience, you can update the map at any time.
 
-金矿区装着你的经验、行业信息和别人不容易获得的认识。
+## How a topic is created
 
-盲区告诉你哪些内容应该先学习、请教，而不是假装自己知道。
+Imagine you work in the beauty industry:
 
-前瞻区适合用实验和探索寻找新答案。
+- “luxury dupes” sits in Common Ground;
+- “product cost” sits in your Gold Mine.
 
-Agent 会根据你的身份给出填词示例，但最后由你决定每个词应该放在哪里。以后你学会了新东西、做了新项目，也可以随时更新这张地图。
+Combine them and you get a question worth answering:
 
-## 一个选题是怎么被组合出来的
+> **Do luxury dupes really cost less to make than luxury products?**
 
-假设你是一名美妆从业者：
+The Agent does not invent the answer. It asks whether you have a real experience, data point, product, or case that can answer the question. If the evidence is missing, it tells you what to investigate, test, or film next.
 
-- 共识区里有“大牌平替”；
-- 金矿区里有“产品成本”。
+Choose a question you can carry. Solve it. Show the result.
 
-把两个词组合，就会得到一个值得回答的问题：
+## From one term to a published video
 
-> **大牌平替的成本，真的比大牌低吗？**
+1. **🧑 Introduce yourself** — explain who you are, what you have done, and whom you want to attract.
+2. **🗺️ Build the four quadrants** — the Agent suggests examples; you fill and confirm your industry terms.
+3. **🧩 Combine topic ideas** — combine concepts within or across quadrants to find a useful question.
+4. **✍️ Write in your own voice** — you keep your judgment and expression; the Agent reviews the script.
+5. **🎬 Decide the next action** — learn what to revise, what to show on camera, what evidence is missing, and whether the idea is ready to shoot.
+6. **🔮 Forecast before publishing** — import comparable history from the same platform and account, then lock a view forecast.
+7. **📊 Reconcile after publishing** — record the actual result at the agreed time, measure the error, and carry the lesson into the next post.
 
-这时 Agent 不会直接编一个答案。
+## Why not just ask AI to write the post?
 
-它会继续问：你有没有真实经历、数据、产品或案例能够回答这个问题？如果材料不够，下一步应该调查什么、测试什么、拍下什么？
+A polished script is not the same as content that only you can make.
 
-先选择你能接住的问题，再解决它、展示结果。
+Most AI writing tools begin with “What do you want to write?” Content Forecast keeps asking:
 
-## 从一个词，到一条发布的视频
+- Where did this question come from?
+- Why should you answer it?
+- What will make the audience believe you?
+- Who is this content meant to attract?
 
-1. **🧑 自我介绍**：告诉 Agent 你是谁、做过什么、想吸引什么人。
-2. **🗺️ 建立四象限**：Agent 根据你的身份举例，你填写并确认自己的行业词汇。
-3. **🧩 组合选题**：从象限内部或不同象限之间组合概念，找到值得回答的问题。
-4. **✍️ 你来写稿**：你保留自己的判断和表达，Agent 帮你审核稿件。
-5. **🎬 明确下一步动作**：它会告诉你哪里要修改、需要展示什么画面、还缺什么材料，以及能不能开始拍。
-6. **🔮 发布前预测**：导入同平台、同账号、同时间口径的历史数据，保存播放量预测。
-7. **📊 发布后对账**：到达约定时间后录入实际播放，查看预测偏差，把新认识留给下一条内容。
+The script remains yours. The Agent helps you see the question clearly, review the expression, and turn each project into a content map that grows with you.
 
-## 为什么不是直接让 AI 帮你写一篇
+## It also forecasts views
 
-因为一段像样的文案，并不等于一条只有你能讲好的内容。
+Once the script is locked, Content Forecast records a pre-publish forecast based on the platform, account, and comparable historical performance.
 
-普通的 AI 内容工具往往从“你想写什么”开始。Content Forecast 会继续向前追问：
-
-- 这个问题从哪里来？
-- 为什么由你来回答？
-- 你拿什么让观众相信？
-- 这条内容到底吸引谁？
-
-稿子仍然是你的。Agent 帮你看清问题、审核表达，并把创作过程变成可以持续积累的个人内容地图。
-
-## 它还会预测播放量
-
-定稿之后，Content Forecast 会根据你的平台、账号和历史表现，保存一个发布前预测：
-
-| 项目 | 结果 |
+| Field | Result |
 | --- | --- |
-| 预测时间 | 发布前 |
-| 预测窗口 | 发布后 72 小时 |
-| 中心预测 | 待真实案例补充 |
-| 播放区间 | 待真实案例补充 |
-| 实际播放 | 发布后补充 |
-| 最终偏差 | 自动计算 |
+| Forecast time | Before publishing |
+| Measurement window | 72 hours after publishing |
+| Point estimate | Waiting for the first real case |
+| Forecast interval | Waiting for the first real case |
+| Actual views | Added after publishing |
+| Final error | Calculated automatically |
 
-预测不会在看到实际数据后重新修改。
+The forecast cannot be rewritten after the actual result is known.
 
-> 📌 这里以后会放入第一条真实的预测卡片截图。v0.1 使用可比历史作品的中位数和 P10/P90 生成探索性基线；少于 5 条可比数据时不输出数值预测。
+> 📌 The first real forecast card will be added here. v0.1 creates an exploratory baseline from the median and P10/P90 of comparable posts. It does not output a numerical forecast with fewer than five comparable samples.
 
-## 第一次使用
+## First run
 
-安装完成后，对 Agent 说：
-
-```text
-初始化 Content Forecast
-```
-
-它会先请你介绍自己，然后陪你建立第一张四象限地图。以后可以直接说：
+After installation, tell your Agent:
 
 ```text
-我想给金矿区补充几个词
-帮我用共识区和金矿区组合三个选题
-我确认这个选题，这是我写的文案
-帮我审核文案，并告诉我下一步应该做什么
-这是我的历史内容和播放数据，帮我预测这条视频
+Initialize Content Forecast
 ```
 
-## 安装
+It will ask you to introduce yourself and help you build your first four-quadrant map. Later, you can say:
 
-下载整个项目文件夹，并保留 `references`、`templates` 和 `scripts`。
+```text
+Add several terms to my Gold Mine.
+Combine Common Ground and Gold Mine into three topics.
+I confirm this topic. Here is my script.
+Review the script and tell me what to do next.
+Here are my historical posts and view data. Forecast this video.
+```
 
-**Codex**：复制到 `~/.codex/skills/content-forecast`，重新打开会话后调用 `content-forecast`。
+## Installation
 
-**Claude Code**：通常复制到 `~/.claude/skills/content-forecast`，再在新会话中使用。目前这一安装路径尚未在本项目中完成实机验证。
+Download the complete project and keep the `references`, `templates`, and `scripts` directories.
 
-需要宿主 Agent 支持文件读写。数据计算需要 Python 3，仅使用标准库；联网检索是可选能力。GitHub 页面本身不会运行这个 Skill。
+**Codex:** copy the project to `~/.codex/skills/content-forecast`, start a new session, and invoke `content-forecast`.
 
-完整示例见 [examples/walkthrough.md](examples/walkthrough.md)，历史数据格式见 [templates/history.csv](templates/history.csv)。个人记录会保存在独立内容工作目录的 `content-forecast-data/`，不上传到公共仓库。
+**Claude Code:** the typical location is `~/.claude/skills/content-forecast`. This path has not yet been tested by this project.
 
-## 关于作者
+The host Agent needs file access. Forecast calculations require Python 3 and use only the standard library. Web access is optional. The GitHub page itself does not run the Skill.
 
-我是 Colin，一名关注 AI、内容和商业实践的创作者。
+See [examples/walkthrough.md](examples/walkthrough.md) for a complete example and [templates/history.csv](templates/history.csv) for the historical data format. Personal records are stored separately in `content-forecast-data/` and should not be committed to the public repository.
 
-Content Forecast 不会帮你猜测事情的结局。但当你在使用它时，你会明白：预测未来的唯一方式，就是创造它。
+## About the author
 
-就像我创造了 Content Forecast，而现在，你看到了它。
+I am Colin, a creator focused on AI, content, and practical business experiments.
 
-如果在 Content Forecast 的帮助下，你生产出了一条世界上只有你能讲好的内容，欢迎点一个 Star。
+Content Forecast cannot tell you how everything will end. But while using it, you may realize that the only way to predict the future is to create it.
 
-如果预测失败，也欢迎把脱敏后的结果发到 Issues。失败的预测，可能比一句“它真的很准”更有价值。
+I created Content Forecast. Now you are seeing it.
+
+If it helps you produce something only you could have made, consider giving the repository a Star.
+
+If a forecast fails, you are also welcome to share an anonymized result in Issues. A failed forecast may teach us more than another claim that “it is accurate.”
 
 ---
 
-参考 [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) 的发布前预测与发布后对账思路。四象限概念组合方法由 Colin 提供，预测记录与计算脚本为本项目实现。
+Inspired by the pre-publish prediction and post-publish reconciliation loop in [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content). The four-quadrant topic method was created by Colin. Forecast logging and calculation are implemented in this project.
 
-[更新记录](CHANGELOG.md) · [验证记录](VALIDATION.md) · MIT License
+[Changelog](CHANGELOG.md) · [Validation notes](VALIDATION.md) · MIT License
