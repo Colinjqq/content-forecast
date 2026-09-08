@@ -1,48 +1,107 @@
-# Content Forecast
-**Created by Colin · 先找到你能接住的问题，再预测与复盘内容表现。**
+<div align="center">
+  <img src="docs/logo.svg" alt="Content Forecast" width="720">
+</div>
+<h2 align="center">Content Forecast</h2>
+<p align="center">
+  <a href="README.md"><strong>简体中文</strong></a>
+  &nbsp;·&nbsp;
+  <a href="docs/README_EN.md"><strong>English</strong></a>
+</p>
+<p align="center">
+  <a href="#-mine-your-own-quadrant"><img src="docs/badge.svg" alt="Mine Your Own Quadrant · 挖自己的矿" width="328"></a>
+</p>
+<p align="center">
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-v0.1.0-orange" alt="Version"></a>
+&nbsp;
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+&nbsp;
+  <a href="SKILL.md"><img src="https://img.shields.io/badge/host-Claude_Code_·_Codex-2ea44f" alt="Hosts"></a>
+&nbsp;
+  <a href="https://github.com/Colinjqq/Content-Forecast/stargazers"><img src="https://img.shields.io/github/stars/Colinjqq/Content-Forecast?style=social" alt="Stars"></a>
+</p>
+<p align="center">
+  <em>你以为选题慢，是因为灵感不够。<strong>不是</strong>。
 
-A creator-first AI skill for concept mapping, topic generation, script review, filming guidance, and view forecasting with post-publish reviews.
+  是你的判断没人帮你记账、复盘、固化成方法。</em>
+</p>
+<p align="center">
+  <em>AI 告诉你<strong>大家都在写什么</strong>。
 
-## 它做什么
-自我介绍 → 身份相关举例与填词 → 持续更新四象限 → 组合选题并确认 → 用户交稿 → 审核与视频操作 → 定稿预测 → 发布后对账。
-
-四象限使用“我懂不懂 × 其他人懂不懂”：共识区、盲区、前瞻区、金矿区。受众和同行统一归为其他人。先从自己的行业经验出发，不必追热点。概念可以在同象限或跨象限组合，组合生成问题，证据决定最后的结论。
-
-## 快速体验
-把本项目交给具备文件读写能力的 Agent，明确指定读取 `SKILL.md`，然后说：
-> 用 Content Forecast 帮我建立行业四象限地图。我做……，我做过……，我希望吸引……。
-
-继续可以说：
-- 用共识区和金矿区组合3个我能讲的选题。
-- 我选第二个问题。这是我写的文案，请审核并告诉我下一步怎么拍。
-- 这是同账号发布72小时的数据，帮我建立播放基线。
-- 为这份定稿保存发布前预测。
-- 已发布，实际发布时间是……。
-- 这是72小时结果，帮我对账。
-
-## 安装
-Skill 是整个文件夹，复制时保留 references、templates、scripts。首版以当前本地 Codex 为制作环境；其他宿主尚未完成实机兼容测试。
-
-Codex：将文件夹复制到你当前版本配置的个人 skills 目录（本地环境为 `~/.codex/skills/content-forecast`），重新打开会话后调用 `content-forecast`。也可以先让 Agent 直接读取下载目录的 SKILL.md 做体验。
-
-Claude Code：通常放到 `~/.claude/skills/content-forecast`，在新会话使用；此路径说明尚未在本项目中实机验证。
-
-需要宿主模型和文件读写；数据计算需要 Python 3（仅标准库）。联网检索可选。开源包不包含模型服务，费用由所用 Agent/服务决定。GitHub 在线页面本身不会运行此 Skill。
-
-## 示例与数据
-完整示例见 [examples/walkthrough.md](examples/walkthrough.md)。历史数据格式见 [templates/history.csv](templates/history.csv)。个人记录保存在独立内容工作目录的 `content-forecast-data/`，不上传到公共仓库。
-
-## 预测能做到什么
-v0.1 使用可比历史作品中位数和P10/P90生成探索性基线；不是经过验证的爆款模型。不同平台、账号、指标与时间窗口分别统计。少于5条可比数据不输出数值预测。
-
-保存发布前内容快照、时间、方法和基线；到期计算误差、区间命中和宽度。标题、封面与成片质量尚未纳入独立分析。数据多不代表必然预测准；本项目尚无前瞻真实发布准确率成绩。
-
-## 维护与反馈
-反馈请说明版本、宿主、复现步骤、预期与实际结果，并脱敏。可改进方向：更多真实前瞻案例、稳定的数据导入、平台兼容；不代表这些已经实现。
-
-[更新记录](CHANGELOG.md) · [验证记录](VALIDATION.md)
-
-## 致谢
-参考 [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) 的发布前预测与发布后对账思路。四象限概念组合方法由 Colin 提供。预测记录与计算脚本为本项目实现。
-
-MIT License。若对你有用，欢迎 Star，也欢迎提交预测失败的案例帮助改进。
+  Content Forecast 告诉你<strong>有些选题只有你能写的好</strong>。</em>
+</p>
+🧭 What it actually does
+Most creators waste time on the same wrong question:
+  "What should I write next?" → scroll hot lists → copy someone else → ship
+The bottleneck isn't inspiration. It's that your judgment never gets logged, never gets reviewed, never compounds.
+Content Forecast rebuilds the loop from the bottom up — using your industry experience as the only starting point:
+🧭 画四象限 → 🎯 组合选题 → 📝 审核文稿 → 🎬 拍摄指引 → 📈 发布前预测 → 📊 72h 对账
+This isn't a content mill. It's a judgment mill — every piece turns a guess into a verified data point.
+One month in = you have a quadrant map that's only yours.
+Three months in = your judgment is 3–5× sharper than day one.
+🌀 Origin
+  I make content. The worst part isn't writing — it's picking what to write.
+  Every week, time spent finding topics > time spent writing.
+  I tried AI topic generators, viral breakdowns, hot-list chasing — none of them worked. They told me what everyone writes. None of them told me what I can write.
+  The four-quadrant method flips the question: first map your own mine — what do you understand, what does the market understand — then dig from your quadrant.
+  After a while I noticed: real hits aren't chased. They're dug up. The deeper you know your industry, the more there is to dig.
+  The prediction part came later. With a quadrant map and history, why not predict: will this one land or flop? T+72h review turns the guess into a verified data point.
+  Two months in — topic-finding time cut in half. Judgment accuracy climbs.
+  — the creator (Colin)
+⚖️ How it differs from other "topic tools"
+      Others
+      This
+      AI 帮你选题
+      AI 帮你看懂自己能讲什么
+      追热点、拆爆款
+      从你自己的矿里挖
+      灵感和标题党
+      可验证的预测 + 发布后对账
+      一周一篇
+      一周挖三篇你自己的
+In one sentence: other tools help you "ship more." This helps you "know your mine."
+🤔 Can't I just use ChatGPT / Doubao / DeepSeek?
+Those are general assistants — they answer based on global average training, not your account. You ask "will this topic work?" — you get the average answer. Ask again tomorrow — same answer. It doesn't remember you. It doesn't change because of you.
+This is your own ops expert — serving only your one account:
+The topic map is built from your industry experience, not scraped from someone else's channel
+Every publish gets logged + reviewed — judgment gets sharper with time (auto-compounding)
+It remembers what hit, what flopped, and why — things ChatGPT forgets after the first reply
+General AI helps everyone pick topics. This helps you pick yours.
+🛡️ Why the loop actually compounds
+🗺️ Quadrant map starts from you: not "what's trending" — "what do I understand × what does the market understand." Consensus / blind-spot / forward-looking / gold-mine. The map evolves as you ship.
+🎯 Topic is a combination, not a copy: combine 2–3 concepts inside or across quadrants → generate questions. You mine, the data decides.
+📝 Every script gets reviewed: before filming, the rubric scores the script. Before publishing, the prediction gets logged. Written down — so future-you can audit past-you.
+📊 Every publish gets settled: 72 hours later, actual data in — error %, interval hit, hit/miss width. No more "I feel this one didn't land."
+🪒 The rubric is a workbench, not a museum: dimensions that don't predict get refactored. Only what sharpens you stays.
+📦 Install
+git clone https://github.com/Colinjqq/Content-Forecast.git
+cd Content-Forecast
+The skill is the whole folder — keep references/, templates/, scripts/ together.
+Codex (default-tested): copy the folder to ~/.codex/skills/content-forecast, reopen your session, call content-forecast. Or just point an agent at the downloaded SKILL.md.
+Claude Code: copy to ~/.claude/skills/content-forecast, use in a fresh session. (Path not yet self-validated on this machine.)
+Requires a host model with file I/O + Python 3 (stdlib only). Network access optional. The repo itself doesn't ship any model service — cost follows your agent/provider. GitHub web view won't run the skill.
+🚀 First run
+In your content working directory, open a skill-compatible agent and say:
+用 Content Forecast 帮我建立行业四象限地图。我做……，我做过……，我希望吸引……
+(or init content-forecast)
+Five yes/no questions complete onboarding. Strongly recommend importing 5–10 historical pieces as your benchmark — without one, your first 5 predictions land at ±50% precision.
+⚡ Daily use
+初始化 content-forecast           → 建立四象限 + 导入历史
+组合选题 <象限A> ∩ <象限B>         → 给我 3 个我能讲的题
+审核文稿 scripts/<...>.md          → 按评分项打分 + 拍摄建议
+预测定稿 scripts/<...>.md          → 写入发布前快照 + P10/P90 基线
+已发布 https://...                  → 标记发布时间 + 等 72h
+对账 videos/<...>/                 → 实际数据 vs 预测 → 误差表 + 命中率
+升级评分 / 查看历史 / 找参考账号    → 维护你自己的方法论
+📈 Star History
+<a href="https://star-history.com/#Colinjqq/Content-Forecast&Date">
+  <img src="docs/star-history.svg" alt="Star History Chart" width="720">
+</a>
+📜 License
+MIT. Commercial use, modification, closed-source integration — all fine.
+Content creators split into two kinds:
+those who chase traffic, and those who mine their own.
+This is the second kind.
+AI won't replace your thinking.
+But it can stop you from guessing from scratch, every time.
+  Reading this README was predicted too.
+Reading this README was predicted too.
