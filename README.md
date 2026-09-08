@@ -32,10 +32,9 @@ Content Forecast maps ideas across two axes:
 - what you know and do not know;
 - what other people know and do not know.
 
-| | Other people know | Other people do not know |
-| --- | --- | --- |
-| **You know** | **Common Ground** — ideas people understand immediately | **Gold Mine** — experience and knowledge you are unusually qualified to explain |
-| **You do not know** | **Blind Spot** — learn, investigate, or ask an expert first | **Frontier** — explore through experiments and new evidence |
+<p align="center">
+  <img src="docs/four-quadrants-en.svg" alt="Content Forecast four-quadrant topic map" width="90%">
+</p>
 
 The Agent suggests examples based on your identity, but you decide where every term belongs. As you learn, work on new projects, or gain new experience, you can update the map at any time.
 
@@ -81,18 +80,11 @@ The script remains yours. The Agent helps you see the question clearly, review t
 
 Once the script is locked, Content Forecast records a pre-publish forecast based on the platform, account, and comparable historical performance.
 
-| Field | Result |
-| --- | --- |
-| Forecast time | Before publishing |
-| Measurement window | 72 hours after publishing |
-| Point estimate | Waiting for the first real case |
-| Forecast interval | Waiting for the first real case |
-| Actual views | Added after publishing |
-| Final error | Calculated automatically |
+<p align="center">
+  <img src="docs/forecast-example.svg" alt="Example 72-hour view forecast card" width="90%">
+</p>
 
-The forecast cannot be rewritten after the actual result is known.
-
-> 📌 The first real forecast card will be added here. v0.1 creates an exploratory baseline from the median and P10/P90 of comparable posts. It does not output a numerical forecast with fewer than five comparable samples.
+The forecast cannot be rewritten after the actual result is known. v0.1 creates an exploratory baseline from the median and P10/P90 of comparable posts, and requires at least five comparable samples before producing a numerical forecast.
 
 ## First run
 

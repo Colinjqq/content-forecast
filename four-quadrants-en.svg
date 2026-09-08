@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Content Forecast Four-Quadrant Map</title>
+  <desc id="desc">A creator-first content map based on what you know and what other people know.</desc>
+  <rect width="1200" height="720" rx="36" fill="#111111"/>
+  <text x="72" y="78" fill="#f5efe4" font-family="Arial, sans-serif" font-size="38" font-weight="700">START WITH WHAT YOU CAN CARRY</text>
+  <text x="72" y="116" fill="#99948b" font-family="Arial, sans-serif" font-size="20">What you know × What other people know</text>
+  <text x="535" y="155" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">OTHERS KNOW</text>
+  <text x="865" y="155" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">OTHERS DON'T KNOW</text>
+  <text x="212" y="285" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">YOU KNOW</text>
+  <text x="212" y="500" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">YOU DON'T KNOW</text>
+  <rect x="340" y="180" width="300" height="190" rx="22" fill="#f3ecdf"/>
+  <rect x="660" y="180" width="300" height="190" rx="22" fill="#ff6b25"/>
+  <rect x="340" y="390" width="300" height="190" rx="22" fill="#242424" stroke="#4a4844" stroke-width="2"/>
+  <rect x="660" y="390" width="300" height="190" rx="22" fill="#165dff"/>
+  <text x="380" y="235" fill="#111111" font-family="Arial, sans-serif" font-size="30" font-weight="700">COMMON GROUND</text>
+  <text x="380" y="276" fill="#4d4942" font-family="Arial, sans-serif" font-size="19">Easy to understand</text>
+  <text x="380" y="323" fill="#8a8175" font-family="Arial, sans-serif" font-size="17">Shared language and needs</text>
+  <text x="700" y="235" fill="#111111" font-family="Arial, sans-serif" font-size="30" font-weight="700">GOLD MINE</text>
+  <text x="700" y="276" fill="#2f160b" font-family="Arial, sans-serif" font-size="19">Uniquely yours to explain</text>
+  <text x="700" y="323" fill="#6b2b0e" font-family="Arial, sans-serif" font-size="17">Experience and inside knowledge</text>
+  <text x="380" y="445" fill="#f5efe4" font-family="Arial, sans-serif" font-size="30" font-weight="700">BLIND SPOT</text>
+  <text x="380" y="486" fill="#b8b2a9" font-family="Arial, sans-serif" font-size="19">Learn or investigate first</text>
+  <text x="380" y="533" fill="#77736d" font-family="Arial, sans-serif" font-size="17">Ask an expert; gather evidence</text>
+  <text x="700" y="445" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">FRONTIER</text>
+  <text x="700" y="486" fill="#dce7ff" font-family="Arial, sans-serif" font-size="19">Explore through experiments</text>
+  <text x="700" y="533" fill="#bcd0ff" font-family="Arial, sans-serif" font-size="17">New trends, people, and needs</text>
+  <path d="M515 625 C620 580, 705 645, 825 602" fill="none" stroke="#ff6b25" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="825" cy="602" r="8" fill="#ff6b25"/>
+  <text x="600" y="675" fill="#f5efe4" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">COMBINE → QUESTION → EVIDENCE → FORECAST → REVIEW</text>
+</svg>

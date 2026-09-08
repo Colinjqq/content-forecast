@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+  <title id="title">Content Forecast example prediction card</title>
+  <desc id="desc">An example showing a locked forecast of 18,000 views, a range of 11,000 to 29,000, and an actual result of 20,460.</desc>
+  <rect width="1200" height="570" rx="36" fill="#111111"/>
+  <text x="64" y="66" fill="#ff6b25" font-family="Arial, sans-serif" font-size="20" font-weight="700">EXAMPLE DATA · 示例数据</text>
+  <text x="64" y="116" fill="#f5efe4" font-family="Arial, sans-serif" font-size="38" font-weight="700">72-HOUR VIEW FORECAST</text>
+  <rect x="64" y="154" width="1072" height="2" fill="#393939"/>
+  <text x="64" y="208" fill="#99948b" font-family="Arial, sans-serif" font-size="18">PLATFORM / ACCOUNT</text>
+  <text x="64" y="244" fill="#f5efe4" font-family="Arial, sans-serif" font-size="25" font-weight="700">Short Video · Example Creator</text>
+  <text x="720" y="208" fill="#99948b" font-family="Arial, sans-serif" font-size="18">STATUS</text>
+  <rect x="720" y="220" width="172" height="38" rx="19" fill="#273c2e"/>
+  <text x="806" y="246" fill="#8ce8a6" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">LOCKED BEFORE POST</text>
+  <rect x="64" y="294" width="326" height="164" rx="22" fill="#f3ecdf"/>
+  <rect x="414" y="294" width="326" height="164" rx="22" fill="#ff6b25"/>
+  <rect x="764" y="294" width="372" height="164" rx="22" fill="#242424" stroke="#494949" stroke-width="2"/>
+  <text x="92" y="336" fill="#656057" font-family="Arial, sans-serif" font-size="18">POINT FORECAST</text>
+  <text x="92" y="402" fill="#111111" font-family="Arial, sans-serif" font-size="54" font-weight="700">18,000</text>
+  <text x="442" y="336" fill="#54230e" font-family="Arial, sans-serif" font-size="18">FORECAST RANGE</text>
+  <text x="442" y="402" fill="#111111" font-family="Arial, sans-serif" font-size="48" font-weight="700">11K–29K</text>
+  <text x="792" y="336" fill="#99948b" font-family="Arial, sans-serif" font-size="18">ACTUAL · 72 HOURS</text>
+  <text x="792" y="402" fill="#f5efe4" font-family="Arial, sans-serif" font-size="54" font-weight="700">20,460</text>
+  <text x="64" y="512" fill="#99948b" font-family="Arial, sans-serif" font-size="18">RELATIVE ERROR</text>
+  <text x="258" y="512" fill="#f5efe4" font-family="Arial, sans-serif" font-size="20" font-weight="700">13.7%</text>
+  <text x="430" y="512" fill="#99948b" font-family="Arial, sans-serif" font-size="18">INTERVAL</text>
+  <text x="552" y="512" fill="#8ce8a6" font-family="Arial, sans-serif" font-size="20" font-weight="700">HIT ✓</text>
+  <text x="1136" y="512" fill="#77736d" font-family="Arial, sans-serif" font-size="16" text-anchor="end">Illustrative example, not a published result</text>
+</svg>
