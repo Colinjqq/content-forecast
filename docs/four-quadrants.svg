@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Content Forecast 四象限</title>
+  <desc id="desc">按你是否懂和其他人是否懂，将内容概念分为共识区、金矿区、盲区和前瞻区。</desc>
+  <rect width="1200" height="720" rx="36" fill="#111111"/>
+  <text x="72" y="78" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="38" font-weight="700">先看你能讲什么，再看什么正在流行</text>
+  <text x="72" y="116" fill="#99948b" font-family="Arial, PingFang SC, sans-serif" font-size="20">你是否懂 × 其他人是否懂</text>
+  <text x="650" y="155" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="22" text-anchor="middle">其他人懂</text>
+  <text x="1000" y="155" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="22" text-anchor="middle">其他人不懂</text>
+  <text x="238" y="340" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="22" text-anchor="middle">你懂</text>
+  <text x="238" y="555" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="22" text-anchor="middle">你不懂</text>
+  <rect x="340" y="180" width="300" height="190" rx="22" fill="#f3ecdf"/>
+  <rect x="660" y="180" width="300" height="190" rx="22" fill="#ff6b25"/>
+  <rect x="340" y="390" width="300" height="190" rx="22" fill="#242424" stroke="#4a4844" stroke-width="2"/>
+  <rect x="660" y="390" width="300" height="190" rx="22" fill="#165dff"/>
+  <text x="380" y="235" fill="#111111" font-family="Arial, PingFang SC, sans-serif" font-size="31" font-weight="700">共识区</text>
+  <text x="380" y="276" fill="#4d4942" font-family="Arial, PingFang SC, sans-serif" font-size="19">让别人迅速听懂</text>
+  <text x="380" y="323" fill="#8a8175" font-family="Arial, PingFang SC, sans-serif" font-size="17">例：大牌平替、购物清单</text>
+  <text x="700" y="235" fill="#111111" font-family="Arial, PingFang SC, sans-serif" font-size="31" font-weight="700">金矿区</text>
+  <text x="700" y="276" fill="#2f160b" font-family="Arial, PingFang SC, sans-serif" font-size="19">只有你更容易讲好</text>
+  <text x="700" y="323" fill="#6b2b0e" font-family="Arial, PingFang SC, sans-serif" font-size="17">例：产品成本、返点结构</text>
+  <text x="380" y="445" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="31" font-weight="700">盲区</text>
+  <text x="380" y="486" fill="#b8b2a9" font-family="Arial, PingFang SC, sans-serif" font-size="19">先学习、请教或调查</text>
+  <text x="380" y="533" fill="#77736d" font-family="Arial, PingFang SC, sans-serif" font-size="17">例：医生经验、工厂报价</text>
+  <text x="700" y="445" fill="#ffffff" font-family="Arial, PingFang SC, sans-serif" font-size="31" font-weight="700">前瞻区</text>
+  <text x="700" y="486" fill="#dce7ff" font-family="Arial, PingFang SC, sans-serif" font-size="19">用实验探索新答案</text>
+  <text x="700" y="533" fill="#bcd0ff" font-family="Arial, PingFang SC, sans-serif" font-size="17">例：新趋势、新人群、新需求</text>
+  <path d="M515 625 C620 580, 705 645, 825 602" fill="none" stroke="#ff6b25" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="825" cy="602" r="8" fill="#ff6b25"/>
+  <text x="600" y="675" fill="#f5efe4" font-family="Arial, PingFang SC, sans-serif" font-size="20" text-anchor="middle">组合概念 → 提出问题 → 补齐证据 → 发布预测 → 数据复盘</text>
+</svg>
