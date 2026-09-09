@@ -7,7 +7,7 @@
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v0.1.0-ff6b25" alt="Version v0.1.0">
+  <img src="https://img.shields.io/badge/version-v0.2.0-ff6b25" alt="Version v0.2.0">
   <img src="https://img.shields.io/badge/license-MIT-165dff" alt="MIT License">
   <img src="https://img.shields.io/badge/type-Agent%20Skill-111111" alt="Agent Skill">
   <img src="https://img.shields.io/badge/created%20by-Colin-f3ecdf" alt="Created by Colin">
@@ -129,6 +129,22 @@ bash install.sh codex
 ```
 
 卸载使用 `bash uninstall.sh codex` 或 `.\uninstall.ps1 -Target codex`。卸载 Skill 不会删除独立保存的 `content-forecast-data/`。
+
+## 更新
+
+进入克隆到电脑的仓库目录后运行：
+
+```bash
+bash update.sh codex
+```
+
+更新 Claude Code 使用 `bash update.sh claude`，同时更新两者使用 `bash update.sh all`。Windows 用户运行：
+
+```powershell
+.\update.ps1 -Target codex
+```
+
+更新脚本会从 GitHub 获取最新版、替换已安装的 Skill，并保留独立的 `content-forecast-data/` 个人资料目录。更新后请重新打开一个 Agent 会话。
 
 需要宿主 Agent 支持文件读写。数据计算需要 Python 3，仅使用标准库；联网检索是可选能力。GitHub 页面本身不会运行这个 Skill。
 

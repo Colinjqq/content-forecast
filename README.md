@@ -7,7 +7,7 @@
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v0.1.0-ff6b25" alt="Version v0.1.0">
+  <img src="https://img.shields.io/badge/version-v0.2.0-ff6b25" alt="Version v0.2.0">
   <img src="https://img.shields.io/badge/license-MIT-165dff" alt="MIT License">
   <img src="https://img.shields.io/badge/type-Agent%20Skill-111111" alt="Agent Skill">
   <img src="https://img.shields.io/badge/created%20by-Colin-f3ecdf" alt="Created by Colin">
@@ -119,6 +119,22 @@ Use `bash install.sh claude` for Claude Code or `bash install.sh all` for both. 
 ```
 
 Uninstall with `bash uninstall.sh codex` or `.\uninstall.ps1 -Target codex`. Uninstalling the Skill does not remove the separate `content-forecast-data/` directory.
+
+## Update
+
+From the cloned repository, run:
+
+```bash
+bash update.sh codex
+```
+
+Use `bash update.sh claude` for Claude Code or `bash update.sh all` for both. On Windows:
+
+```powershell
+.\update.ps1 -Target codex
+```
+
+The updater fetches the latest GitHub version, replaces the installed Skill, and leaves the separate `content-forecast-data/` directory untouched. Start a new Agent session after updating.
 
 The host Agent needs file access. Forecast calculations require Python 3 and use only the standard library. Web access is optional. The GitHub page itself does not run the Skill.
 
