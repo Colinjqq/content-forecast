@@ -152,8 +152,4 @@ If it helps you produce something only you could have made, consider giving the 
 
 If a forecast fails, you are also welcome to share an anonymized result in Issues. A failed forecast may teach us more than another claim that “it is accurate.”
 
----
-
-Inspired by the pre-publish prediction and post-publish reconciliation loop in [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content). The four-quadrant topic method was created by Colin. Forecast logging and calculation are implemented in this project.
-
-[Changelog](CHANGELOG.md) · [Validation notes](VALIDATION.md) · MIT License
+Start by understanding who you are and finding questions you are uniquely equipped to answer. Record your judgment before publishing, then let every real result guide the next piece of content.

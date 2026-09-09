@@ -162,8 +162,4 @@ Content Forecast 不会帮你猜测事情的结局。但当你在使用它时，
 
 如果预测失败，也欢迎把脱敏后的结果发到 Issues。失败的预测，可能比一句“它真的很准”更有价值。
 
----
-
-参考 [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) 的发布前预测与发布后对账思路。四象限概念组合方法由 Colin 提供，预测记录与计算脚本为本项目实现。
-
-[更新记录](CHANGELOG.md) · [验证记录](VALIDATION.md) · MIT License
+从认识你开始，找到只有你更适合回答的问题；从发布前的判断开始，让每一次真实结果都成为下一条内容的依据。
