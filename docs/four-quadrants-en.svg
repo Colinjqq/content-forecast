@@ -8,10 +8,10 @@
   <text x="865" y="155" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">OTHERS DON'T KNOW</text>
   <text x="212" y="285" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">YOU KNOW</text>
   <text x="212" y="500" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">YOU DON'T KNOW</text>
-  <rect x="340" y="180" width="300" height="190" rx="22" fill="#f3ecdf"/>
-  <rect x="660" y="180" width="300" height="190" rx="22" fill="#ff6b25"/>
-  <rect x="340" y="390" width="300" height="190" rx="22" fill="#242424" stroke="#4a4844" stroke-width="2"/>
-  <rect x="660" y="390" width="300" height="190" rx="22" fill="#165dff"/>
+  <rect x="340" y="180" width="300" height="190" rx="22" fill="#2474e5"/>
+  <rect x="660" y="180" width="300" height="190" rx="22" fill="#f3c43b"/>
+  <rect x="340" y="390" width="300" height="190" rx="22" fill="#dc4c4c"/>
+  <rect x="660" y="390" width="300" height="190" rx="22" fill="#7b55c7"/>
   <text x="380" y="235" fill="#111111" font-family="Arial, sans-serif" font-size="30" font-weight="700">COMMON GROUND</text>
   <text x="380" y="276" fill="#4d4942" font-family="Arial, sans-serif" font-size="19">Easy to understand</text>
   <text x="380" y="323" fill="#8a8175" font-family="Arial, sans-serif" font-size="17">Shared language and needs</text>

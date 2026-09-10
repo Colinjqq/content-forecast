@@ -7,7 +7,7 @@
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v0.2.0-ff6b25" alt="Version v0.2.0">
+  <img src="https://img.shields.io/badge/version-v0.3.0-ff6b25" alt="Version v0.3.0">
   <img src="https://img.shields.io/badge/license-MIT-165dff" alt="MIT License">
   <img src="https://img.shields.io/badge/type-Agent%20Skill-111111" alt="Agent Skill">
   <img src="https://img.shields.io/badge/created%20by-Colin-f3ecdf" alt="Created by Colin">
@@ -38,6 +38,8 @@ Content Forecast maps ideas across two axes:
 
 The Agent suggests examples based on your identity, but you decide where every term belongs. As you learn, work on new projects, or gain new experience, you can update the map at any time.
 
+You can also add, delete, or move terms at any time—or send the Agent a topic you want to discuss and ask where it belongs.
+
 ## How a topic is created
 
 Imagine you work in the beauty industry:
@@ -53,15 +55,17 @@ The Agent does not invent the answer. It asks whether you have a real experience
 
 Choose a question you can carry. Solve it. Show the result.
 
-## From one term to a published video
+## Three steps to forecast a piece of content
 
-1. **🧑 Introduce yourself** — explain who you are, what you have done, and whom you want to attract.
-2. **🗺️ Build the four quadrants** — the Agent suggests examples; you fill and confirm your industry terms.
-3. **🧩 Combine topic ideas** — combine concepts within or across quadrants to find a useful question.
-4. **✍️ Write in your own voice** — you keep your judgment and expression; the Agent reviews the script.
-5. **🎬 Decide the next action** — learn what to revise, what to show on camera, what evidence is missing, and whether the idea is ready to shoot.
-6. **🔮 Forecast before publishing** — import comparable history from the same platform and account, then lock a view forecast.
-7. **📊 Reconcile after publishing** — record the actual result at the agreed time, measure the error, and carry the lesson into the next post.
+1. **🧭 Let it know you once** — build a creator map, three audience groups, content direction, and four quadrants; reuse and update them later.
+2. **🧩 Complete the next piece** — choose from three tailored topics, write your draft, and receive a diagnosis of its strongest spread point, first drop-off, likely audience, and required changes.
+3. **🔮 Forecast how it may spread** — predict what drives the content, whom it may attract, and—when representative history is available—whether it may perform above, near, or below your content baseline.
+
+Visual cues stay consistent: 🟢 keep, 🟡 adjust, 🔴 must fix; the map uses 🔵 Common Ground, 🟡 Gold Mine, 🔴 Blind Spot, and 🟣 Frontier.
+
+<p align="center">
+  <img src="docs/diagnosis-example.svg" alt="Content Forecast script diagnosis example" width="90%">
+</p>
 
 ## Why not just ask AI to write the post?
 
@@ -76,15 +80,15 @@ Most AI writing tools begin with “What do you want to write?” Content Foreca
 
 The script remains yours. The Agent helps you see the question clearly, review the expression, and turn each project into a content map that grows with you.
 
-## It also forecasts views
+## It forecasts how content may spread
 
-Once the script is locked, Content Forecast records a pre-publish forecast based on the platform, account, and comparable historical performance.
+Once the script is locked, Content Forecast identifies the strongest spread point, first likely drop-off, likely audience, interaction direction, and largest variable. For a numerical comparison, upload three recent, similar posts that represent your normal performance—not obvious outliers.
 
 <p align="center">
   <img src="docs/forecast-example.svg" alt="Example 72-hour view forecast card" width="90%">
 </p>
 
-The forecast cannot be rewritten after the actual result is known. v0.1 creates an exploratory baseline from the median and P10/P90 of comparable posts, and requires at least five comparable samples before producing a numerical forecast.
+Three samples create a temporary content baseline. Future results gradually strengthen the long-term baseline. The forecast emphasizes direction relative to baseline, with a wide range and explicit conditions, and cannot be rewritten after the actual result is known.
 
 ## Start
 

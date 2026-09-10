@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Content Forecast script diagnosis card</title>
+<desc id="desc">An illustrative visual diagnosis with green, yellow and red priorities.</desc>
+<rect width="1200" height="560" rx="36" fill="#111111"/>
+<text x="64" y="64" fill="#ff6b25" font-family="Arial, sans-serif" font-size="20" font-weight="700">SCRIPT DIAGNOSIS · 示例</text>
+<text x="64" y="116" fill="#f5efe4" font-family="Arial, sans-serif" font-size="36" font-weight="700">这条内容离发布还有多远？</text>
+<rect x="920" y="58" width="216" height="70" rx="20" fill="#f3ecdf"/>
+<text x="1028" y="88" fill="#656057" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">传播综合分</text>
+<text x="1028" y="116" fill="#111111" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700">7.4 / 10</text>
+<rect x="64" y="158" width="1072" height="2" fill="#393939"/>
+<circle cx="88" cy="215" r="10" fill="#42c777"/>
+<text x="116" y="222" fill="#7ee2a8" font-family="Arial, sans-serif" font-size="19" font-weight="700">保留 · 最强传播点</text>
+<text x="390" y="222" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22">反直觉开头立刻建立兴趣</text>
+<circle cx="88" cy="286" r="10" fill="#f3c43b"/>
+<text x="116" y="293" fill="#f5cf62" font-family="Arial, sans-serif" font-size="19" font-weight="700">调整 · 收益显化</text>
+<text x="390" y="293" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22">把观众能获得的结果提前一句</text>
+<circle cx="88" cy="357" r="10" fill="#dc4c4c"/>
+<text x="116" y="364" fill="#ff858f" font-family="Arial, sans-serif" font-size="19" font-weight="700">处理 · 首个流失点</text>
+<text x="390" y="364" fill="#f5efe4" font-family="Arial, sans-serif" font-size="22">第二个同类案例开始重复论点</text>
+<rect x="64" y="414" width="1072" height="88" rx="20" fill="#242424" stroke="#494949" stroke-width="2"/>
+<text x="92" y="450" fill="#b6b1a8" font-family="Arial, sans-serif" font-size="17" font-weight="700">🎯 NEXT ACTION</text>
+<text x="92" y="481" fill="#f5efe4" font-family="Arial, sans-serif" font-size="23">删去一个重复案例，把真实结果画面提前，然后发布。</text>
+<text x="1136" y="536" fill="#77736d" text-anchor="end" font-family="Arial, sans-serif" font-size="15">Illustrative format</text>
+</svg>
